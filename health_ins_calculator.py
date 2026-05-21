@@ -4,7 +4,8 @@ def main():
     st.set_page_config(page_title="건보료 연봉 계산기", page_icon="💰", layout="centered")
     
     st.title("💰 건강보험료 기준 연봉 역산 계산기")
-    st.markdown("급여명세서에 고지된 **본인부담 건강보험료**를 바탕으로 세전 월급과 예상 연봉을 계산합니다. *(2026년 요율 7.19% 기준)*")
+    st.markdown("급여명세서에 고지된 **본인부담 건강보험료**를 바탕으로 세전 월급과 예상 연봉을 계산합니다.")
+    st.markdown("*(2026년 요율 7.19% 기준)*")
     st.divider()
     
     # 입력 필드 (기본값 100,000원)
